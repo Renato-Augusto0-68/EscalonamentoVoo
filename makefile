@@ -5,9 +5,9 @@ main.o: main.c
 	gcc -c main.c
 
 run: EscalonamentoVoo
-	gcc ./EscalonamentoVoo
+	./EscalonamentoVoo
 
 clean:
-		rm -f *.o a.out *.pgm EscalonamentoVoo
+	rm -f *.o a.out *.pgm EscalonamentoVoo
 
 PHONY: run clean
