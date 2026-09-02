@@ -1,0 +1,43 @@
+Script started on 2026-09-02 17:54:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="118" LINES="11"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c
+gcc main.o -o
+[01m[Kgcc:[m[K [01;31m[Kerror: [m[Kmissing filename after ‘[01m[K-o[m[K’
+make: *** [makefile:2: EscalonamentoVoo] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.txt *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+gcc ./EscalonamentoVoo
+/usr/bin/ld: cannot use executable file './EscalonamentoVoo' as input to a link
+collect2: error: ld returned 1 exit status
+make: *** [makefile:8: run] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+Hello world 100[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+Hello world 100[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make 
+[?2004lmake: 'EscalonamentoVoo' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ ./Escalonamento [KVoo
+[?2004lHello world 100[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ ./EscalonamentoVoo
+[?2004lHello world 100[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ ./EscalonamentoVoo
+[?2004lHello world 100[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clen[Kan
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean./EscalonamentoVoomake [Krun[K&& ./esca[K[K[K[KEscak[KlonamentoVoo
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+Hello world 100
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./EscalonamentoVooclean[K./EscalonamentoVoo
+[?2004lHello world 100
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean./EscalonamentoVoomake && ./EscalonamentoVo
