@@ -8,6 +8,6 @@ run: EscalonamentoVoo
 	gcc ./EscalonamentoVoo
 
 clean:
-		rm -f *.o a.out *.txt *.pgm EscalonamentoVoo
+		rm -f *.o a.out *.pgm EscalonamentoVoo
 
 PHONY: run clean
