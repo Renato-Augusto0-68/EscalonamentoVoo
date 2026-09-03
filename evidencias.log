@@ -40,4 +40,1188 @@ Hello world 100
 [?2004lHello world 100
 [?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
 [?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
-[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean./EscalonamentoVoomake && ./EscalonamentoVo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean./EscalonamentoVoomake && ./EscalonamentoVoScript started on 2026-09-03 07:32:01-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="159" LINES="19"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prunclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Cabou
+Completadas: 1
+Mortas(Killed): 
+perdidas: 12
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Cabou
+Completadas: 8
+Mortas(Killed): 
+perdidas: 5
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Cabou
+Completadas: 8
+Mortas(Killed): 
+perdidas: 5
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Cabou
+Completadas: 16
+Mortas(Killed): 
+perdidas: -3
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+morreu
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 104
+Mortas(Killed): 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 104
+Mortas(Killed): 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+[01m[Kmain.c:63:12:[m[K [01;31m[Kerror: [m[Kexpected declaration specifiers or ‘[01m[K...[m[K’ before string constant
+   63 |     printf([01;31m[K"Completadas: %d\nMortas(Killed): \nperdidas: %d\n"[m[K,contCompletas,contLost);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:63:64:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KcontCompletas[m[K’
+   63 |     printf("Completadas: %d\nMortas(Killed): \nperdidas: %d\n",[01;31m[KcontCompletas[m[K,contLost);
+      |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[Kmain.c:63:78:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KcontLost[m[K’; did you mean ‘[01m[Kconst[m[K’?
+   63 |     printf("Completadas: %d\nMortas(Killed): \nperdidas: %d\n",contCompletas,[01;31m[KcontLost[m[K);
+      |                                                                              [01;31m[K^~~~~~~~[m[K
+      |                                                                              [32m[Kconst[m[K
+[01m[Kmain.c:66:1:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+   66 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make: *** [makefile:5: main.o] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 13
+Mortas(Killed): 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 13
+Mortas(Killed): 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 13
+Mortas(Killed): 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 13
+Mortas(Killed): 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 13
+Mortas(Killed): 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 11
+Mortas(Killed): 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 11
+Mortas(Killed):1 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 16
+Mortas(Killed):1 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 14
+Mortas(Killed):1 
+perdidas: 3
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 17
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 17
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 17
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 17
+Mortas(Killed):1 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 17
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+F
