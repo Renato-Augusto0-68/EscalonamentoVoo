@@ -17,6 +17,7 @@ typedef struct tarefa{
     int isReady;
     int isDone;
     int isDead;
+    int aux;
 }tarefa;
 
 // uma struct com 2 valores sempre
@@ -36,7 +37,7 @@ int main(/*int argc char *argv[]*/){
     int cont=deadline;
     int i=0;
     int aux =periodo;
-    tarefa x[tempoTotal/periodo];
+    tarefa x[2][tempoTotal];
     /*
     Ok, vamos pensar:
     ele chega a cada 20 segundos... então tem que aumentar o contador de processos p fazer
@@ -48,7 +49,7 @@ int main(/*int argc char *argv[]*/){
 
     e, claro flags de status...
     */
-
+    for(int i1=0;i1<2;i1++){
     for(i;i<tempoTotal;i++){
 
         if ((i%periodo)==0 && i<tempoTotal){
@@ -56,18 +57,18 @@ int main(/*int argc char *argv[]*/){
             cont++;
             burst = tempoExec;
             aux = i+deadline;
-            x[i].isReady=1;
-            x[i].isDead=0;
-            x[i].isDone=0;
+            x[i1][i].isReady=1;
+            x[i1][i].isDead=0;
+            x[i1][i].isDone=0;
         }
-        if (cont!=0 && x[i].isReady==1){
+        if (cont!=0 && x[i1][i].isReady==1){
                 printf("Fazendo algo\n");
                 if(burst==0){
                     contCompletas++;
                     cont--;
-                    x[i].isDead=0;
-                    x[i].isDone=1;
-                    x[i].isReady=0;
+                    x[i1][i].isDead=0;
+                    x[i1][i].isDone=1;
+                    x[i1][i].isReady=0;
                 }
                 else{burst--;}
         }
@@ -78,14 +79,15 @@ int main(/*int argc char *argv[]*/){
         if (i==aux){
             if (cont>0){
                 contLost++;
-                x[i].isDone=0;
-                x[i].isDead=0;
-                x[i].isReady=0;
+                x[i1][i].isDone=0;
+                x[i1][i].isDead=0;
+                x[i1][i].isReady=0;
                 cont--;
             }
 
             
-        }    
+            }    
+        }
     }
     for(i=0;i<tempoTotal;i++){
         if(x[i].isReady==1 && cont>0){
