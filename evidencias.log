@@ -1224,4 +1224,193 @@ Fazendo algo
 Fazendo algo
 vendo agora
 Fazendo algo
-F
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Completadas: 16
+Mortas(Killed):0 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+
+Status: 
+Completadas: 16
+Mortas(Killed):0 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ m[Kclear
+[?2004l[H[2J[3J[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[5Pclear
+[?2004l[H[2J[3J[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ clearmake clean[5Pclearmake run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):6 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 1
+Mortas(Killed):6 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):6 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):6 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Esc
