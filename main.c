@@ -18,13 +18,16 @@ typedef struct tarefa{
     int isDone;
     int isDead;
     int aux;
-}tarefa;
+    int cont;
+    int burst;
+}tarefa; 
+
 
 // uma struct com 2 valores sempre
 // e, dentro dela colocar os dados conforme cada um precisa
 
 int main(/*int argc char *argv[]*/){
-    int periodo=20;
+   int periodo=20;
     int copia = periodo;
     int tempoTotal=100;
     int tempoExec=8;
@@ -37,7 +40,32 @@ int main(/*int argc char *argv[]*/){
     int cont=deadline;
     int i=0;
     int aux =periodo;
-    tarefa x[2][tempoTotal];
+    tarefa x[tempoTotal];
+    tarefa x2[tempoTotal];
+    
+    
+    
+    for(int i3=0;i3<tempoTotal;i3++){
+            x[i3].periodo=periodo;
+            x[i3].aux=periodo;
+            x[i3].tempoTotal=tempoTotal;
+            x[i3].isDead=0;
+            x[i3].burst=tempoExec;
+            x[i3].isReady=0;
+            x[i3].cont=0;
+            x[i3].isDone=0;
+            
+            x2[i3].periodo=periodo;
+            x2[i3].aux=periodo;
+            x2[i3].tempoTotal=tempoTotal;
+            x2[i3].isDead=0;
+            x2[i3].burst=tempoExec;
+            x2[i3].isReady=0;
+            x2[i3].cont=0;
+            x2[i3].isDone=0;
+            
+            
+    }
     /*
     Ok, vamos pensar:
     ele chega a cada 20 segundos... então tem que aumentar o contador de processos p fazer
@@ -49,54 +77,109 @@ int main(/*int argc char *argv[]*/){
 
     e, claro flags de status...
     */
-    for(int i1=0;i1<2;i1++){
-    for(i;i<tempoTotal;i++){
-
-        if ((i%periodo)==0 && i<tempoTotal){
+    for(int i2=0;i2<2;i2++){
+        for(i=0;i<tempoTotal;i++){
+           
+        if (i2==0){   
+           
+            if ((i%periodo)==0 && i<tempoTotal){
             printf("vendo agora\n");
-            cont++;
-            burst = tempoExec;
-            aux = i+deadline;
-            x[i1][i].isReady=1;
-            x[i1][i].isDead=0;
-            x[i1][i].isDone=0;
+            x[i2].cont++;
+            x[i2].burst = tempoExec;
+             x[i2].aux = i+deadline;
+             x[i2].isReady=1;
+             x[i2].isDead=0;
+             x[i2].isDone=0;
         }
-        if (cont!=0 && x[i1][i].isReady==1){
+        if (x[i2].cont!=0 && x[i2].isReady==1){
                 printf("Fazendo algo\n");
-                if(burst==0){
+                if(x[i2].burst==0){
                     contCompletas++;
-                    cont--;
-                    x[i1][i].isDead=0;
-                    x[i1][i].isDone=1;
-                    x[i1][i].isReady=0;
+                     x[i2].cont--;
+                     x[i2].isDead=0;
+                     x[i2].isDone=1;
+                     x[i2].isReady=0;
                 }
-                else{burst--;}
+                else{x[i2].burst--;}
         }
 
         
             //deadline--;
         
-        if (i==aux){
-            if (cont>0){
+        if (i==x[i2].aux){
+            if (x[i2].cont>0){
                 contLost++;
-                x[i1][i].isDone=0;
-                x[i1][i].isDead=0;
-                x[i1][i].isReady=0;
-                cont--;
+                 x[i2].isDone=0;
+                 x[i2].isDead=0;
+                 x[i2].isReady=0;
+                 x[i2].cont--;
             }
 
             
-            }    
+            }   
+            
+        }else{
+            if ((i%periodo)==0 && i<tempoTotal){
+            printf("vendo agora\n");
+            x2[i2].cont++;
+            x2[i2].burst = tempoExec;
+             x2[i2].aux = i+deadline;
+             x2[i2].isReady=1;
+             x2[i2].isDead=0;
+             x2[i2].isDone=0;
+        }
+        if (x2[i2].cont!=0 && x2[i2].isReady==1){
+                printf("Fazendo algo\n");
+                if(x2[i2].burst==0){
+                    contCompletas++;
+                     x2[i2].cont--;
+                     x2[i2].isDead=0;
+                     x2[i2].isDone=1;
+                     x2[i2].isReady=0;
+                }
+                else{x2[i2].burst--;}
+        }
+
+        
+            //deadline--;
+        
+        if (i==x2[i2].aux){
+            if (x2[i2].cont>0){
+                contLost++;
+                 x2[i2].isDone=0;
+                 x2[i2].isDead=0;
+                 x2[i2].isReady=0;
+                 x2[i2].cont--;
+            }
+
+            
+            }
+            
+        }
+        
+    }
+    }
+    for(int i2=0;i2<2;i2++){
+    for(i=0;i<tempoTotal;i++){
+        if (i2==0){
+            if( x[i].isReady==1 && x[i].cont>0){
+            contKilled++;
+             x[i].isDead=1;
+             x[i].isReady=0;
+             x[i].isDone=0;
+             x[i].cont--;
+        }
+        }else{
+            if( x2[i].isReady==1 && x2[i].cont>0){
+            contKilled++;
+             x2[i].isDead=1;
+             x2[i].isReady=0;
+             x2[i].isDone=0;
+             x2[i].cont--;
+                
+            }
         }
     }
-    for(i=0;i<tempoTotal;i++){
-        if(x[i].isReady==1 && cont>0){
-            contKilled++;
-            x[i].isDead=1;
-            x[i].isReady=0;
-            x[i].isDone=0;
-            cont--;
-        }
     }
     printf("\nStatus: \nCompletadas: %d\nMortas(Killed):%d \nperdidas: %d\n",contCompletas,contKilled,contLost);
     return 0;

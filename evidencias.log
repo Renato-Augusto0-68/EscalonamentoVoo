@@ -1413,4 +1413,154 @@ Status:
 Completadas: 0
 Mortas(Killed):6 
 perdidas: 1
-[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Esc
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):6 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[3Pclear
+[?2004l[H[2J[3J[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ clearmake run[3Pclearmake clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[5Pclearmake run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):6 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[Kmake run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):6 
+perdidas: 5
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):1 
+perdidas: 10
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):7 
+perdidas: 5
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+vendo agora
+Fazendo algo
+Fazendo algo
+
+Status: 
+Completadas: 0
+Mortas(Killed):11 
+perdidas: 5
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prunclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+vendo agora
+Fazen
