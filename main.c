@@ -128,16 +128,16 @@ int main(/*int argc char *argv[]*/){
             }
         }
     }
-    for(int i2=0;i2<2;i2++){
+     for(int i2=0;i2<2;i2++){
     
             if( tarefas[i2].isReady==1 && tarefas[i2].cont>0){
-            contKilled++;
-             tarefas[i2].isDead=1;
-             tarefas[i2].isReady=0;
-             tarefas[i2].isDone=0;
-             tarefas[i2].cont--;
+                if(i2==0){contKilled+=(tarefas[i2].cont);}
+                else{contKilled2+=(tarefas[i2].cont);}
+                tarefas[i2].isDead=1;
+                tarefas[i2].isReady=0;
+                tarefas[i2].isDone=0;
+                tarefas[i2].cont=0;
         }
-        
     
     }
     printf("\nStatus1: \nCompletadas: %d\nMortas(Killed):%d \nperdidas: %d\n",contCompletas,contKilled,contLost);
