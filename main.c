@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
-
 //tempo total é x
 
 // ai um deadline TEM QUE TERMINAR AAAAAAAAAAATÈ AQUI
@@ -14,6 +11,8 @@ typedef struct tarefa{
     char *nome;
     int periodo;
     int tempoTotal;
+    int tempoExec;
+    int deadline;
     int isReady;
     int isDone;
     int isDead;
@@ -22,12 +21,13 @@ typedef struct tarefa{
     int burst;
 }tarefa; 
 
-
 // uma struct com 2 valores sempre
 // e, dentro dela colocar os dados conforme cada um precisa
 
 int main(/*int argc char *argv[]*/){
-   int periodo=20;
+    tarefa tarefas[2];
+    //50 30 15
+    int periodo=20;
     int copia = periodo;
     int tempoTotal=100;
     int tempoExec=8;
@@ -40,32 +40,36 @@ int main(/*int argc char *argv[]*/){
     int cont=deadline;
     int i=0;
     int aux =periodo;
-    tarefa x[tempoTotal];
-    tarefa x2[tempoTotal];
+    
+    int periodo2=50;
+    int copia2 = periodo2;
+    int tempoExec2=15;
+    int burst2 = tempoExec2;
+    int deadline2 =30;
+    int contLost2=0;
+    int contCompletas2=0;
+    int bufferCompletar2 =0;
+    int contKilled2=0;
+    int cont2=deadline2;
+    int aux2 =periodo;
     
     
-    
-    for(int i3=0;i3<tempoTotal;i3++){
-            x[i3].periodo=periodo;
-            x[i3].aux=periodo;
-            x[i3].tempoTotal=tempoTotal;
-            x[i3].isDead=0;
-            x[i3].burst=tempoExec;
-            x[i3].isReady=0;
-            x[i3].cont=0;
-            x[i3].isDone=0;
-            
-            x2[i3].periodo=periodo;
-            x2[i3].aux=periodo;
-            x2[i3].tempoTotal=tempoTotal;
-            x2[i3].isDead=0;
-            x2[i3].burst=tempoExec;
-            x2[i3].isReady=0;
-            x2[i3].cont=0;
-            x2[i3].isDone=0;
-            
-            
+    for(int i3=0;i3<2;i3++){
+            tarefas[i3].periodo=(i3!=1)? periodo: periodo2;
+            tarefas[i3].aux=(i3!=1)? periodo: periodo2;
+            tarefas[i3].tempoExec = (i3!=1)? tempoExec: tempoExec2;
+            tarefas[i3].tempoTotal= tempoTotal;
+            tarefas[i3].isDead=0;
+            tarefas[i3].burst=(i3!=1)? burst : burst2;
+            tarefas[i3].isReady=0;
+            tarefas[i3].deadline = (i3!=1)? deadline : deadline2;
+            tarefas[i3].cont=0;
+            tarefas[i3].isDone=0;
     }
+    
+    
+    
+    
     /*
     Ok, vamos pensar:
     ele chega a cada 20 segundos... então tem que aumentar o contador de processos p fazer
@@ -77,110 +81,57 @@ int main(/*int argc char *argv[]*/){
 
     e, claro flags de status...
     */
-    for(int i2=0;i2<2;i2++){
-        for(i=0;i<tempoTotal;i++){
-           
-        if (i2==0){   
-           
+    for(i;i<tempoTotal;i++){
+        for(int i2=0;i2<2;i2++){
+            
             if ((i%periodo)==0 && i<tempoTotal){
-            printf("vendo agora\n");
-            x[i2].cont++;
-            x[i2].burst = tempoExec;
-             x[i2].aux = i+deadline;
-             x[i2].isReady=1;
-             x[i2].isDead=0;
-             x[i2].isDone=0;
-        }
-        if (x[i2].cont!=0 && x[i2].isReady==1){
-                printf("Fazendo algo\n");
-                if(x[i2].burst==0){
-                    contCompletas++;
-                     x[i2].cont--;
-                     x[i2].isDead=0;
-                     x[i2].isDone=1;
-                     x[i2].isReady=0;
+            tarefas[i2].cont++;
+            tarefas[i2].burst = tarefas[i2].tempoExec;
+             tarefas[i2].aux = i+(tarefas[i2].deadline);
+             tarefas[i2].isReady=1;
+             tarefas[i2].isDead=0;
+             tarefas[i2].isDone=0;
+            }
+            if (tarefas[i2].cont!=0 && tarefas[i2].isReady==1){
+                if(tarefas[i2].burst==0){
+                    if(i2==0){contCompletas++;}
+                    else{contCompletas2++;}
+                     tarefas[i2].cont--;
+                     tarefas[i2].isDead=0;
+                     tarefas[i2].isDone=1;
+                     tarefas[i2].isReady=0;
                 }
-                else{x[i2].burst--;}
-        }
+                else{tarefas[i2].burst--;}
+            }
 
         
             //deadline--;
         
-        if (i==x[i2].aux){
-            if (x[i2].cont>0){
-                contLost++;
-                 x[i2].isDone=0;
-                 x[i2].isDead=0;
-                 x[i2].isReady=0;
-                 x[i2].cont--;
-            }
-
-            
-            }   
-            
-        }else{
-            if ((i%periodo)==0 && i<tempoTotal){
-            printf("vendo agora\n");
-            x2[i2].cont++;
-            x2[i2].burst = tempoExec;
-             x2[i2].aux = i+deadline;
-             x2[i2].isReady=1;
-             x2[i2].isDead=0;
-             x2[i2].isDone=0;
-        }
-        if (x2[i2].cont!=0 && x2[i2].isReady==1){
-                printf("Fazendo algo\n");
-                if(x2[i2].burst==0){
-                    contCompletas++;
-                     x2[i2].cont--;
-                     x2[i2].isDead=0;
-                     x2[i2].isDone=1;
-                     x2[i2].isReady=0;
+            if (i==tarefas[i2].aux){
+                if (tarefas[i2].cont>0){
+                    if(i2==0){contLost++;}
+                    else{contLost2++;};
+                    tarefas[i2].isDone=0;
+                    tarefas[i2].isDead=0;
+                    tarefas[i2].isReady=0;
+                    tarefas[i2].cont--;
                 }
-                else{x2[i2].burst--;}
-        }
-
-        
-            //deadline--;
-        
-        if (i==x2[i2].aux){
-            if (x2[i2].cont>0){
-                contLost++;
-                 x2[i2].isDone=0;
-                 x2[i2].isDead=0;
-                 x2[i2].isReady=0;
-                 x2[i2].cont--;
             }
-
-            
-            }
-            
         }
-        
-    }
     }
     for(int i2=0;i2<2;i2++){
-    for(i=0;i<tempoTotal;i++){
-        if (i2==0){
-            if( x[i].isReady==1 && x[i].cont>0){
+    
+            if( tarefas[i2].isReady==1 && tarefas[i2].cont>0){
             contKilled++;
-             x[i].isDead=1;
-             x[i].isReady=0;
-             x[i].isDone=0;
-             x[i].cont--;
+             tarefas[i2].isDead=1;
+             tarefas[i2].isReady=0;
+             tarefas[i2].isDone=0;
+             tarefas[i2].cont--;
         }
-        }else{
-            if( x2[i].isReady==1 && x2[i].cont>0){
-            contKilled++;
-             x2[i].isDead=1;
-             x2[i].isReady=0;
-             x2[i].isDone=0;
-             x2[i].cont--;
-                
-            }
-        }
+        
+    
     }
-    }
-    printf("\nStatus: \nCompletadas: %d\nMortas(Killed):%d \nperdidas: %d\n",contCompletas,contKilled,contLost);
+    printf("\nStatus1: \nCompletadas: %d\nMortas(Killed):%d \nperdidas: %d\n",contCompletas,contKilled,contLost);
+    printf("\nStatus1: \nCompletadas: %d\nMortas(Killed):%d \nperdidas: %d\n",contCompletas2,contKilled2,contLost2);
     return 0;
 }
