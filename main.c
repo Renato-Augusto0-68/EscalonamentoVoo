@@ -19,14 +19,13 @@ typedef struct tarefa{
     int aux;
     int cont;
     int burst;
-}tarefa; 
+}tarefa;  
 
 // uma struct com 2 valores sempre
 // e, dentro dela colocar os dados conforme cada um precisa
 
 int main(/*int argc char *argv[]*/){
-    tarefa tarefas[2];
-    //50 30 15
+    tarefa tarefas[2];    //50 30 15
     int periodo=20;
     int copia = periodo;
     int tempoTotal=100;
@@ -39,9 +38,7 @@ int main(/*int argc char *argv[]*/){
     int contKilled=0;
     int cont=deadline;
     int i=0;
-    
     int aux =periodo;
-    
     int periodo2=50;
     int copia2 = periodo2;
     int tempoExec2=15;
@@ -53,7 +50,7 @@ int main(/*int argc char *argv[]*/){
     int contKilled2=0;
     int cont2=deadline2;
     int aux2 =periodo;
-    int escolhida=-1;
+    int escolhida =-1;
     
     for(int i3=0;i3<2;i3++){
              tarefas[i3].periodo=(i3!=1)? periodo: periodo2;
