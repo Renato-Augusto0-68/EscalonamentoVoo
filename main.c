@@ -56,13 +56,13 @@ int main(/*int argc char *argv[]*/){
     int escolhida=-1;
     
     for(int i3=0;i3<2;i3++){
-            tarefas[i3].periodo=(i3!=1)? periodo: periodo2;
+             tarefas[i3].periodo=(i3!=1)? periodo: periodo2;
             tarefas[i3].aux=(i3!=1)? periodo: periodo2;
             tarefas[i3].tempoExec = (i3!=1)? tempoExec: tempoExec2;
             tarefas[i3].tempoTotal= tempoTotal;
             tarefas[i3].isDead=0;
-            tarefas[i3].burst=(i3!=1)? burst : burst2;
-            tarefas[i3].isReady=0;
+            tarefas[i3].burst=0;
+            tarefas[i3].isReady=1;
             tarefas[i3].deadline = (i3!=1)? deadline : deadline2;
             tarefas[i3].cont=0;
             tarefas[i3].isDone=0;
