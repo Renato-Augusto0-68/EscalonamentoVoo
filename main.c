@@ -39,6 +39,7 @@ int main(/*int argc char *argv[]*/){
     int contKilled=0;
     int cont=deadline;
     int i=0;
+    
     int aux =periodo;
     
     int periodo2=50;
@@ -52,7 +53,7 @@ int main(/*int argc char *argv[]*/){
     int contKilled2=0;
     int cont2=deadline2;
     int aux2 =periodo;
-    
+    int escolhida=-1;
     
     for(int i3=0;i3<2;i3++){
             tarefas[i3].periodo=(i3!=1)? periodo: periodo2;
@@ -81,40 +82,48 @@ int main(/*int argc char *argv[]*/){
 
     e, claro flags de status...
     */
+   int i2=0;
     for(i;i<tempoTotal;i++){
-        for(int i2=0;i2<2;i2++){
+        for(int i3=0;i3<2;i3++){
             
+            int d1 = tarefas[0].periodo;
+            int d2 = tarefas[1].periodo;
+            if (d1<d2){
+                escolhida=0;
+            }else{escolhida=1;}
+         }
+         for(i2;i2<2;i2++){
             if ((i%periodo)==0 && i<tempoTotal){
-            tarefas[i2].cont++;
-            tarefas[i2].burst = tarefas[i2].tempoExec;
-             tarefas[i2].aux = i+(tarefas[i2].deadline);
-             tarefas[i2].isReady=1;
-             tarefas[i2].isDead=0;
-             tarefas[i2].isDone=0;
+            tarefas[escolhida].cont++;
+            tarefas[escolhida].burst = tarefas[escolhida].tempoExec;
+             tarefas[escolhida].aux = i+(tarefas[escolhida].deadline);
+             tarefas[escolhida].isReady=1;
+             tarefas[escolhida].isDead=0;
+             tarefas[escolhida].isDone=0;
             }
-            if (tarefas[i2].cont!=0 && tarefas[i2].isReady==1){
-                if(tarefas[i2].burst==0){
-                    if(i2==0){contCompletas++;}
+            if (tarefas[escolhida].cont!=0 && tarefas[escolhida].isReady==1){
+                if(tarefas[escolhida].burst==0){
+                    if(escolhida==0){contCompletas++;}
                     else{contCompletas2++;}
-                     tarefas[i2].cont--;
-                     tarefas[i2].isDead=0;
-                     tarefas[i2].isDone=1;
-                     tarefas[i2].isReady=0;
+                     tarefas[escolhida].cont--;
+                     tarefas[escolhida].isDead=0;
+                     tarefas[escolhida].isDone=1;
+                     tarefas[escolhida].isReady=0;
                 }
-                else{tarefas[i2].burst--;}
+                else{tarefas[escolhida].burst--;}
             }
 
         
             //deadline--;
         
-            if (i==tarefas[i2].aux){
-                if (tarefas[i2].cont>0){
-                    if(i2==0){contLost++;}
+            if (i==tarefas[escolhida].aux){
+                if (tarefas[escolhida].cont>0){
+                    if(escolhida==0){contLost++;}
                     else{contLost2++;};
-                    tarefas[i2].isDone=0;
-                    tarefas[i2].isDead=0;
-                    tarefas[i2].isReady=0;
-                    tarefas[i2].cont--;
+                    tarefas[escolhida].isDone=0;
+                    tarefas[escolhida].isDead=0;
+                    tarefas[escolhida].isReady=0;
+                    tarefas[escolhida].cont--;
                 }
             }
         }
