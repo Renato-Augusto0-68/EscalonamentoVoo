@@ -80,6 +80,10 @@ int main(/*int argc char *argv[]*/){
 
     e, claro flags de status...
     */
+   int prioridade= 0;
+    
+    int menPriorid=0;
+    int maiPriorid=0;
    int d1 = tarefas[0].periodo;
    int d2 = tarefas[1].periodo;    
    int i2=0;
@@ -140,57 +144,90 @@ int main(/*int argc char *argv[]*/){
     
         }
     }else{
-        for(i=0;i<tempoTotal;i++){
+
+    for(i=0;i<tempoTotal;i++){
+        escolhida=-1;
+        
+
         for(int i3=0;i3<2;i3++){
-           
+            
             if ((i%(tarefas[i3].periodo))==0){
             tarefas[i3].cont++;
             tarefas[i3].burst = tarefas[i3].tempoExec;
-             tarefas[i3].aux = i+(tarefas[i3].deadline);
+             tarefas[i3].aux = i+ (tarefas[i3].deadline);
              tarefas[i3].isReady=1;
              tarefas[i3].isDead=0;
-             tarefas[i3].isDone=0;
+             tarefas[i3].isDone=0;           
+             
+            }
+            if (tarefas[0].isReady==1){
+                if (tarefas[1].isReady==tarefas[0].isReady){
+                    if (tarefas[0].aux<tarefas[1].aux ){
+                        maiPriorid=0;
+                        menPriorid=1;
+                    }else if (tarefas[0].aux>tarefas[1].aux ){
+                        maiPriorid=1;
+                        menPriorid=0;
+                    }
+                }else{
+                    maiPriorid=0;
+                    menPriorid=1;
+                }
+                
+            }else{
+                    if (tarefas[1].isReady==tarefas[0].isReady){
+                        if (tarefas[0].aux<tarefas[1].aux ){
+                            maiPriorid=0;
+                            menPriorid=1;
+                        }else if (tarefas[0].aux>tarefas[1].aux ){
+                            maiPriorid=1;
+                            menPriorid=0;
+                        }
+                    }else{    maiPriorid=1;
+                        menPriorid=0;
+                        
+                    }
+                
             }
 
-            
-        if (i==tarefas[i3].aux && (tarefas[i3].cont>0 && tarefas[i3].burst>0)){
+            if (i==tarefas[i3].aux && (tarefas[i3].cont>0 && tarefas[i3].burst>0)){
                 
                     if(i3==0){contLost++;}
-                    else{contLost2++;};
+                    else{contLost2++;}
+                    tarefas[i3].cont--;
                     tarefas[i3].isDone=0;
                     tarefas[i3].isDead=0;
                     tarefas[i3].isReady=0;
-                    tarefas[i3].cont--;
+                    
                 
             }
            
-        }
+        } 
            
-            if (tarefas[1].isReady==1){
-                escolhida=1;
+            if (tarefas[maiPriorid].isReady==1){
+                escolhida=maiPriorid;
             }
-            if (tarefas[0].isReady==1){
-                escolhida=0;
+            else if (tarefas[menPriorid].isReady==1){
+                escolhida=menPriorid;
             }
-            if (tarefas[0].isReady==tarefas[1].isReady && tarefas[0].isReady==1 ){
-                escolhida = (d1<d2)? 0 : 1;
+            else{
+                escolhida =-1;
             }
-            if(tarefas[0].isReady==tarefas[1].isReady && tarefas[0].isReady==0){
-                escolhida=-1;
-            }
+            
              if(escolhida!=-1){
-             
+                
                 if (tarefas[escolhida].cont!=0 && tarefas[escolhida].isReady==1){
+                    tarefas[escolhida].burst--;
                     if(tarefas[escolhida].burst==0){
                         if(escolhida==0){contCompletas++;}
                         else{contCompletas2++;}
                          tarefas[escolhida].cont--;
+                         tarefas[escolhida].isReady=0;
                          tarefas[escolhida].isDead=0;
                          tarefas[escolhida].isDone=1;
-                         tarefas[escolhida].isReady=0;
                     }
-                    else{tarefas[escolhida].burst--;}
                 }
+                
             }
     
         }
