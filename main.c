@@ -53,7 +53,7 @@ int main(/*int argc char *argv[]*/){
     int cont2=deadline2;
     int aux2 =periodo2;
     int escolhida=-1;
-    int modo =1;
+    int modo =2;
     for(int i3=0;i3<2;i3++){
             tarefas[i3].periodo=(i3!=1)? periodo: periodo2;
              
@@ -139,9 +139,7 @@ int main(/*int argc char *argv[]*/){
                 }
                 else if (tarefas[0].isReady==0){maiPriorid=1;}
             }
-            if(maiPriorid!=-1){
-                escolhida=maiPriorid;
-            }else{escolhida=-1;}
+            escolhida=maiPriorid;
 
 
              if(escolhida!=-1){
@@ -198,47 +196,23 @@ int main(/*int argc char *argv[]*/){
 
             if(tarefas[0].isReady==0 && tarefas[1].isReady==0){
                 maiPriorid=-1;
+            } 
+            if(tarefas[0].isReady==1 && tarefas[1].isReady==0 && tarefas[0].burst>0 ){
+                maiPriorid=0;
             }
-
-            if (tarefas[0].isReady==1){
-                if (tarefas[1].isReady==tarefas[0].isReady){
-                    if (tarefas[0].aux<tarefas[1].aux ){
+            if(tarefas[1].isReady==1 && tarefas[1].burst>0){
+                if (tarefas[0].isReady==1 && tarefas[0].burst>0){
+                    if (tarefas[0].aux<=tarefas[1].aux)
                         maiPriorid=0;
-                        menPriorid=1;
-                    }else if (tarefas[0].aux>tarefas[1].aux ){
+                    else{
                         maiPriorid=1;
-                        menPriorid=0;
                     }
-                }else{
-                    maiPriorid=0;
-                    menPriorid=1;
                 }
-                
-            }else{
-                    if (tarefas[1].isReady==tarefas[0].isReady){
-                        if (tarefas[0].aux<tarefas[1].aux ){
-                            maiPriorid=0;
-                            menPriorid=1;
-                        }else if (tarefas[0].aux>tarefas[1].aux ){
-                            maiPriorid=1;
-                            menPriorid=0;
-                        }
-                    }else{    maiPriorid=1;
-                        menPriorid=0;
-                        
-                    }
-                
+                else if (tarefas[0].isReady==0){maiPriorid=1;}
             }
+            
 
-            if (tarefas[maiPriorid].isReady==1){
-                escolhida=maiPriorid;
-            }
-            else if (tarefas[menPriorid].isReady==1){
-                escolhida=menPriorid;
-            }
-            else{
-                escolhida =-1;
-            }
+            escolhida=maiPriorid;
             
              if(escolhida!=-1){
                 
