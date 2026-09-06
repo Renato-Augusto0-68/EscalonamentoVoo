@@ -1563,4 +1563,138 @@ perdidas: 5
 gcc main.o -o EscalonamentoVoo
 ./EscalonamentoVoo
 vendo agora
-Fazen
+FazenScript started on 2026-09-06 08:26:41-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="159" LINES="14"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:181:25:[m[K [01;31m[Kerror: [m[K‘[01m[KmenPriorid[m[K’ undeclared (first use in this function); did you mean ‘[01m[KmaiPriorid[m[K’?
+  181 |                         [01;31m[KmenPriorid[m[K=1;
+      |                         [01;31m[K^~~~~~~~~~[m[K
+      |                         [32m[KmaiPriorid[m[K
+[01m[Kmain.c:181:25:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:5: main.o] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 5
+
+Status2: 
+Completadas: 0
+Mortas(Killed):0 
+perdidas: 2
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass
