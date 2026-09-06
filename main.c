@@ -31,7 +31,7 @@ int main(/*int argc char *argv[]*/){
     int periodo=20;
     int copia = periodo;
     int tempoTotal=100;
-    int tempoExec=4;
+    int tempoExec=8;
     int burst = tempoExec;
     int deadline =12;
     int contLost=0;
@@ -43,7 +43,7 @@ int main(/*int argc char *argv[]*/){
     int aux =periodo;
     int periodo2=50;
     int copia2 = periodo2;
-    int tempoExec2= 5;
+    int tempoExec2= 15;
     int burst2 = tempoExec2;
     int deadline2 =30;
     int contLost2=0;
@@ -97,7 +97,7 @@ int main(/*int argc char *argv[]*/){
         maiPriorid = -1;
         for(int i3=0;i3<2;i3++){
            
-            if ((i%(tarefas[i3].periodo))==0){
+        if ((i%(tarefas[i3].periodo))==0 && i!=tempoTotal){
             tarefas[i3].isDone=0; 
             tarefas[i3].isReady=1;
             tarefas[i3].burst = tarefas[i3].tempoExec;
