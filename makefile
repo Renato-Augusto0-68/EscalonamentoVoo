@@ -5,6 +5,6 @@ run: scheduler
 	./scheduler
 
 clean:
-	rm -f *.o a.out *.pgm scheduler
+	rm -f *.o *.txt a.out *.pgm scheduler
 
 .PHONY: run clean

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 //tempo total é x
 
@@ -7,13 +8,19 @@
 /// Periodo : chega a cada tal tempo
 // burst  o tempo q precisa. ou seja: if contador ==deadline){break;}
 
+
+
+
+
+
+
+
 typedef struct tarefa{
-    char *nome;
+    char nome[3];
     int periodo;
     int tempoTotal;
     int tempoExec;
     int deadline;
-    int aux_ant;
     int isReady;
     int isDone;
     int isDead;
@@ -22,50 +29,40 @@ typedef struct tarefa{
     int burst;
 }tarefa;  
 
+void readFile(char *argv[], tarefa *x){
+    FILE *acesso;
+
+    acesso = fopen(argv[1],"r");
+    if (acesso!=NULL){
+        fscanf(acesso,"%d",&x[0].tempoTotal);
+        x[1].tempoTotal=x[0].tempoTotal;
+        fscanf(acesso,"%s %d %d %d",x[0].nome,&x[0].periodo,&x[0].deadline,&x[0].tempoExec);
+        fscanf(acesso,"%s %d %d %d",x[1].nome,&x[1].periodo,&x[1].deadline,&x[1].tempoExec);
+    }
+    fclose(acesso);
+}
+
+
 // uma struct com 2 valores sempre
 // e, dentro dela colocar os dados conforme cada um precisa
 
-int main(/*int argc char *argv[]*/){
-   tarefa tarefas[2];
-    //50 30 15
-    int periodo=20;
-    int copia = periodo;
-    int tempoTotal=100;
-    int tempoExec=8;
-    int burst = tempoExec;
-    int deadline =12;
+int main(int argc, char *argv[]){
+
+    tarefa tarefas[2];
     int contLost=0;
     int contCompletas=0;
-    int bufferCompletar =0;
     int contKilled=0;
-    int cont=deadline;
-    int i=0;
-    int aux =periodo;
-    int periodo2=50;
-    int copia2 = periodo2;
-    int tempoExec2= 15;
-    int burst2 = tempoExec2;
-    int deadline2 =30;
-    int contLost2=0;
     int contCompletas2=0;
-    int bufferCompletar2 =0;
+    int contLost2=0;
     int contKilled2=0;
-    int cont2=deadline2;
-    int aux2 =periodo2;
     int escolhida=-1;
     int modo =2;
+    readFile(argv, tarefas);
     for(int i3=0;i3<2;i3++){
-            tarefas[i3].periodo=(i3!=1)? periodo: periodo2;
-             
-             tarefas[i3].aux=(i3!=1)? aux: aux2;
-            
-            tarefas[i3].tempoExec = (i3!=1)? tempoExec: tempoExec2;
-            tarefas[i3].tempoTotal= tempoTotal;
+            tarefas[i3].aux=tarefas[i3].periodo;
             tarefas[i3].isDead=0;
             tarefas[i3].burst=tarefas[i3].tempoExec;
-            tarefas[i3].aux_ant=-1;
             tarefas[i3].isReady=0;
-            tarefas[i3].deadline = (i3!=1)? deadline : deadline2;
             tarefas[i3].cont=0;
             tarefas[i3].isDone=0;
     }
@@ -87,13 +84,14 @@ int main(/*int argc char *argv[]*/){
    int prioridade= 0;
     int menPriorid=0;
     int maiPriorid=0;
-        
+    int  tempoTotal = tarefas[0].tempoTotal; 
    int i2=0;
     if (modo==1){
     int d1 = tarefas[0].periodo;
    int d2 = tarefas[1].periodo;  
+   
 //RM
-    for(i=0;i<tempoTotal;i++){
+    for(int i=0;i<tempoTotal;i++){
         maiPriorid = -1;
         for(int i3=0;i3<2;i3++){
            
@@ -161,7 +159,7 @@ int main(/*int argc char *argv[]*/){
         }
     }else{
 
-    for(i=0;i<tempoTotal;i++){
+    for(int i=0;i<tempoTotal;i++){
         escolhida=-1;
         int d1 = tarefas[0].periodo;
         int d2 = tarefas[1].periodo;  
@@ -235,8 +233,8 @@ int main(/*int argc char *argv[]*/){
      for(int i2=0;i2<2;i2++){
     
             if( tarefas[i2].isReady==1 && tarefas[i2].burst>0){
-                if(i2==0){contKilled+=cont;}
-                else{contKilled2+=cont;}
+                if(i2==0){contKilled+=tarefas[i2].cont;}
+                else{contKilled2+=tarefas[i2].cont;}
                 tarefas[i2].isDead=1;
                // tarefas[i2].isReady=0;
                 tarefas[i2].cont=0;
