@@ -179,6 +179,27 @@ int main(/*int argc char *argv[]*/){
              tarefas[i3].isDone=0;           
              
             }
+            
+
+            if (i==tarefas[i3].aux && (tarefas[i3].cont>0 && tarefas[i3].burst>0)){
+                
+                    if(i3==0){contLost++;}
+                    else{contLost2++;}
+                    tarefas[i3].cont--;
+                    tarefas[i3].isDone=0;
+                    tarefas[i3].isDead=0;
+                    tarefas[i3].isReady=0;
+                    
+                
+            }
+           
+        } 
+
+
+            if(tarefas[0].isReady==0 && tarefas[1].isReady==0){
+                maiPriorid=-1;
+            }
+
             if (tarefas[0].isReady==1){
                 if (tarefas[1].isReady==tarefas[0].isReady){
                     if (tarefas[0].aux<tarefas[1].aux ){
@@ -209,20 +230,6 @@ int main(/*int argc char *argv[]*/){
                 
             }
 
-            if (i==tarefas[i3].aux && (tarefas[i3].cont>0 && tarefas[i3].burst>0)){
-                
-                    if(i3==0){contLost++;}
-                    else{contLost2++;}
-                    tarefas[i3].cont--;
-                    tarefas[i3].isDone=0;
-                    tarefas[i3].isDead=0;
-                    tarefas[i3].isReady=0;
-                    
-                
-            }
-           
-        } 
-           
             if (tarefas[maiPriorid].isReady==1){
                 escolhida=maiPriorid;
             }
