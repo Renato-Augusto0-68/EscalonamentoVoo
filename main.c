@@ -29,6 +29,7 @@ typedef struct tarefa{
     int burst;
 }tarefa;  
 
+
 void readFile(char *argv[], tarefa *x){
     FILE *acesso;
 
@@ -42,6 +43,43 @@ void readFile(char *argv[], tarefa *x){
     fclose(acesso);
 }
 
+void writeFileBegin(int modo){
+    FILE *acesso;
+    if (modo==1)
+        acesso = fopen("rate_rass.out","a");
+    if (modo==2)
+        acesso = fopen("edf_rass.out","a");
+    if(acesso!=NULL){
+        fprintf(acesso,"EXECUTION BY RATE\n\n");
+    }
+    fclose(acesso);
+}
+
+
+void writeFileMiddle(int modo,tarefa *x, int tempo, int acao, int qual){
+    FILE *acesso;
+    if (modo==1)
+        acesso = fopen("rate_rass.out","a");
+    if (modo==2)
+        acesso = fopen("edf_rass.out","a");
+    if(acesso!=NULL){
+        if (acao==1){
+            fprintf(acesso,"[%s] for %d units - F\n",x[qual].nome,tempo);
+        }
+        if(acao==2){
+            fprintf(acesso,"[%s] for %d units - L\n",x[qual].nome,tempo);
+        }
+        if (acao == -1){
+            fprintf(acesso,"idle for %d units\n",tempo);
+        }
+        if(acao==3){
+            fprintf(acesso,"[%s] for %d units - H\n",x[qual].nome,tempo);
+        }
+    }
+    fclose(acesso);
+
+}
+
 void writeFileEnd(int modo, tarefa *x, int contCompletas, int contCompletas2, int contLost,int contLost2, int contKilled, int contKilled2){
     FILE *acesso;
     if (modo==1)
@@ -49,7 +87,7 @@ void writeFileEnd(int modo, tarefa *x, int contCompletas, int contCompletas2, in
     if (modo==2)
         acesso = fopen("edf_rass.out","a");
     if(acesso!=NULL){
-        fprintf(acesso,"LOST DEADLINES\n[%s] %d\n[%s] %d\n\n", x[0].nome,contLost,x[1].nome,contLost2);
+        fprintf(acesso,"\nLOST DEADLINES\n[%s] %d\n[%s] %d\n\n", x[0].nome,contLost,x[1].nome,contLost2);
         fprintf(acesso,"COMPLETE EXECUTION\n[%s] %d\n[%s] %d\n\n",x[0].nome,contCompletas,x[1].nome,contCompletas2);
         fprintf(acesso,"KILLED\n[%s] %d\n[%s] %d\n",x[0].nome,contKilled,x[1].nome,contKilled2);
     }
@@ -63,6 +101,8 @@ int main(int argc, char *argv[]){
 
     tarefa tarefas[2];
     int contLost=0;
+    int ant=0;
+    int escolha_ant=-1;
     int contCompletas=0;
     int contKilled=0;
     int contCompletas2=0;
@@ -81,7 +121,7 @@ int main(int argc, char *argv[]){
     }
     
     
-    
+    writeFileBegin(modo);
     
     /*
     Ok, vamos pensar:
@@ -104,6 +144,9 @@ int main(int argc, char *argv[]){
    int d2 = tarefas[1].periodo;  
    
 //RM
+
+
+    
     for(int i=0;i<tempoTotal;i++){
         maiPriorid = -1;
         for(int i3=0;i3<2;i3++){
@@ -112,7 +155,6 @@ int main(int argc, char *argv[]){
             tarefas[i3].isDone=0; 
             tarefas[i3].isReady=1;
             tarefas[i3].burst = tarefas[i3].tempoExec;
-             
             tarefas[i3].aux = i+ (tarefas[i3].deadline);
             
             tarefas[i3].cont++;
@@ -127,13 +169,15 @@ int main(int argc, char *argv[]){
                     else{contLost2++;};
                     tarefas[i3].isDone=0;
                     tarefas[i3].isDead=0;
+                    writeFileMiddle(modo,tarefas,i-ant,2,i3);
+                    ant=i;
                     tarefas[i3].isReady=0;
                     tarefas[i3].cont--;
                 
             }
            
         }
-           
+            escolha_ant=escolhida;
             if(tarefas[0].isReady==0 && tarefas[1].isReady==0){
                 maiPriorid=-1;
             }
@@ -160,6 +204,8 @@ int main(int argc, char *argv[]){
                     if(tarefas[escolhida].burst==0){
                         if(escolhida==0){contCompletas++;}
                         else{contCompletas2++;}
+                        writeFileMiddle(modo,tarefas,i-ant,1,escolhida);
+                         ant=i;
                          tarefas[escolhida].cont--;
                          tarefas[escolhida].isDead=0;
                          tarefas[escolhida].isDone=1;
@@ -167,6 +213,9 @@ int main(int argc, char *argv[]){
                     }
                     
                 }
+            }else{
+                writeFileMiddle(modo,tarefas,i-ant,escolhida,escolhida);
+                ant=i;
             }
     
         }
