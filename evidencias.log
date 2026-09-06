@@ -1832,4 +1832,820 @@ perdidas: 0
 [?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
 [?2004lgcc -c main.c
 gcc main.o -o EscalonamentoVoo
-./EscalonamentoV
+./EscalonamentoVScript started on 2026-09-06 13:22:57-03:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="201" LINES="14"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ mk[Kake clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 1
+Mortas(Killed):0 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 1
+Mortas(Killed):0 
+perdidas: 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make l[Kclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prun
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./scheduler
+make: ./scheduler: No such file or directory
+make: *** [makefile:8: run] Error 127
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ cle[K[K[Kmake clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ mak [Ke run
+[?2004lgcc -c main.c
+gcc main.o -o scheduler
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o scheduler
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lmake: *** No rule to make target 'rm', needed by 'run'.  Stop.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lmakefile:5: warning: overriding recipe for target 'scheduler'
+makefile:2: warning: ignoring old recipe for target 'scheduler'
+cc    -c -o main.o main.c
+gcc -c main.c -o scheduler
+./scheduler
+make: ./scheduler: Permission denied
+make: *** [makefile:8: run] Error 127
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lmakefile:5: warning: overriding recipe for target 'scheduler'
+makefile:2: warning: ignoring old recipe for target 'scheduler'
+rm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ mak [Ke run
+[?2004lcc    -c -o main.o main.c
+gcc main -o scheduler
+/usr/bin/ld: cannot find main: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc main.o -o scheduler
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o scheduler
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm main.o
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ run [K[K[K[Kmake 
+[?2004lgcc -c main.c -o scheduler
+gcc main.o
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make 
+[?2004lgcc -c main.c -o scheduler
+gcc main.o
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o
+[01m[Kgcc:[m[K [01;31m[Kerror: [m[Kmissing filename after ‘[01m[K-o[m[K’
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f  a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o scheduler
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o s
+gcc -o scheduler
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lcc    -c -o main.o main.c
+gcc -o s
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ a[Kmake clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lcc    -c -o main.o main.c
+gcc -o s
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc s
+/usr/bin/ld: cannot find s: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lcc    -c -o main.o main.c
+gcc s
+/usr/bin/ld: cannot find s: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc teste
+/usr/bin/ld: cannot find teste: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ a[Kmake run
+[?2004l./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make l[Kclean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o EscalonamentoVoo
+/usr/bin/ld: cannot find main.o: No such file or directory
+/usr/bin/ld: cannot find EscalonamentoVoo: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: EscalonamentoVoo] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler -o scheduler
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kinput file ‘[01m[Kscheduler[m[K’ is the same as output file
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c 
+gcc scheduler -o scheduler
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kinput file ‘[01m[Kscheduler[m[K’ is the same as output file
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c 
+gcc scheduler -o scheduler
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kinput file ‘[01m[Kscheduler[m[K’ is the same as output file
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ maker[K rnu[K[Kun
+[?2004lgcc scheduler 
+/usr/bin/ld: cannot find scheduler: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ mk[Kake clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler 
+./scheduler
+make: ./scheduler: Permission denied
+make: *** [makefile:8: run] Error 127
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main -o scheduler
+/usr/bin/ld: cannot find main: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make 
+[?2004lgcc -c main.c -o scheduler
+gcc main -o scheduler
+/usr/bin/ld: cannot find main: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc main -o scheduler
+/usr/bin/ld: cannot find main: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clen[Kan[K[K[K[Kr[K[Krun
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler -o scheduler
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kinput file ‘[01m[Kscheduler[m[K’ is the same as output file
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler -o scheduler
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kinput file ‘[01m[Kscheduler[m[K’ is the same as output file
+compilation terminated.
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler
+./scheduler
+make: ./scheduler: Permission denied
+make: *** [makefile:8: run] Error 127
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clen[Kan
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ teste[K[K[K[K[Kmake c[Krun
+[?2004lgcc -c main.c -o teste
+gcc main.o -o EscalonamentoVoo
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: EscalonamentoVoo] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make tes[K[K[Krun
+[?2004lgcc -c main.c -o teste
+gcc main.o -o teste
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: EscalonamentoVoo] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o teste
+gcc main.o -o EscalonamentoVoo
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: EscalonamentoVoo] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c
+gcc main.o -o EscalonamentoVoo
+./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./EscalonamentoVoo
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o
+[01m[Kgcc:[m[K [01;31m[Kerror: [m[Kmissing filename after ‘[01m[K-o[m[K’
+make: *** [makefile:5: main.o] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c 
+gcc main.o -o scheduler
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clea[K[K[K[Krun
+[?2004lgcc -c main.c -f
+[01m[Kgcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option ‘[01m[K-f[m[K’
+make: *** [makefile:5: main.o] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc main.c
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc main.c -g
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make ru[K[K[K
+[?2004lgcc -c main.c 
+gcc main.o -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c 
+gcc main.o -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lmake: 'scheduler' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o main.o main.c
+[01m[Kgcc:[m[K [01;31m[Kfatal error: [m[Kcannot specify ‘[01m[K-o[m[K’ with ‘[01m[K-c[m[K’, ‘[01m[K-S[m[K’ or ‘[01m[K-E[m[K’ with multiple files
+compilation terminated.
+make: *** [makefile:5: main.o] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o nomealeatorio
+gcc nomealeatorio -o scheduler
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ nome [K[K[K[K[Kmake run
+[?2004lgcc -c main.c -o nomealeatorio
+gcc nomealeatorio
+./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clan
+[?2004lmake: *** No rule to make target 'clan'.  Stop.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o nomealeatorio
+gcc nomealeatorio
+./scheduler
+make: ./scheduler: No such file or directory
+make: *** [makefile:8: run] Error 127
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ mka[K[Kake run
+[?2004lgcc -c main.c -o nomealeatorio
+gcc main.o
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o nomealeatorio
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o nomealeatorio
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make 
+[?2004lgcc -c main.c -o nomealeatorio
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o nomealeatorio
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o 
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler 
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler 
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler 
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$  make run
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler 
+./scheduler
+make: ./scheduler: Permission denied
+make: *** [makefile:8: run] Error 127
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make ru[K[Kclean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc main.o
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make[K[K[K[K./scheduler
+[?2004lbash: ./scheduler: Permission denied
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ ./scheduler
+[?2004lbash: ./scheduler: Permission denied
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ ./scheduler[7Pmake
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c
+gcc main.o -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004l./scheduler
+
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c
+gcc main.o -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lmake: 'scheduler' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make 
+[?2004lgcc -c main.c
+gcc main.o -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[Kclean[K clean[5Pclearmake run
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc main.o -o scheduler
+/usr/bin/ld: cannot find main.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[K run[K[K[Kclean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc -c main.c -o scheduler
+rm -f a.out
+gcc scheduler
+./scheduler
+make: ./scheduler: Permission denied
+make: *** [makefile:8: run] Error 127
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lgcc -c main.c -o scheduler
+gcc scheduler.o scheduler
+/usr/bin/ld: cannot find scheduler.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make
+[?2004lcc    -c -o main.o main.c
+gcc scheduler.o scheduler
+/usr/bin/ld: cannot find scheduler.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm EscalonamentoVoo
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run[K[K[K[K
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ ./scheduler
+[?2004l
+Status1: 
+Completadas: 5
+Mortas(Killed):0 
+perdidas: 0
+
+Status2: 
+Completadas: 2
+Mortas(Killed):0 
+perdidas: 0
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o a.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ 

@@ -1,13 +1,10 @@
-EscalonamentoVoo: main.o
-				gcc main.o -o EscalonamentoVoo
+scheduler: main.c
+				gcc main.c -o scheduler
 
-main.o: main.c
-	gcc -c main.c
-
-run: EscalonamentoVoo
-	./EscalonamentoVoo
+run: scheduler
+	./scheduler
 
 clean:
-	rm -f *.o a.out *.pgm EscalonamentoVoo
+	rm -f *.o a.out *.pgm scheduler
 
-PHONY: run clean
+.PHONY: run clean
