@@ -42,6 +42,19 @@ void readFile(char *argv[], tarefa *x){
     fclose(acesso);
 }
 
+void writeFileEnd(int modo, tarefa *x, int contCompletas, int contCompletas2, int contLost,int contLost2, int contKilled, int contKilled2){
+    FILE *acesso;
+    if (modo==1)
+        acesso = fopen("rate_rass.out","a");
+    if (modo==2)
+        acesso = fopen("edf_rass.out","a");
+    if(acesso!=NULL){
+        fprintf(acesso,"LOST DEADLINES\n[%s] %d\n[%s] %d\n\n", x[0].nome,contLost,x[1].nome,contLost2);
+        fprintf(acesso,"COMPLETE EXECUTION\n[%s] %d\n[%s] %d\n\n",x[0].nome,contCompletas,x[1].nome,contCompletas2);
+        fprintf(acesso,"KILLED\n[%s] %d\n[%s] %d\n",x[0].nome,contKilled,x[1].nome,contKilled2);
+    }
+    fclose(acesso);
+}
 
 // uma struct com 2 valores sempre
 // e, dentro dela colocar os dados conforme cada um precisa
@@ -56,7 +69,7 @@ int main(int argc, char *argv[]){
     int contLost2=0;
     int contKilled2=0;
     int escolhida=-1;
-    int modo =2;
+    int modo =1;
     readFile(argv, tarefas);
     for(int i3=0;i3<2;i3++){
             tarefas[i3].aux=tarefas[i3].periodo;
@@ -242,7 +255,6 @@ int main(int argc, char *argv[]){
         }
     
     }
-    printf("\nStatus1: \nCompletadas: %d\nMortas(Killed):%d \nperdidas: %d\n",contCompletas,contKilled,contLost);
-    printf("\nStatus2: \nCompletadas: %d\nMortas(Killed):%d \nperdidas: %d\n",contCompletas2,contKilled2,contLost2);
+    writeFileEnd(modo,tarefas,contCompletas,contCompletas2,contLost,contLost2,contKilled,contKilled2);
     return 0;
 }
