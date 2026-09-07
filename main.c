@@ -26,7 +26,7 @@ typedef struct tarefa{
 void readFile(char *argv[], tarefa *x){
     FILE *acesso;
 
-    acesso = fopen(argv[1],"r");
+    acesso = fopen(argv[2],"r");
     if (acesso!=NULL){
         fscanf(acesso,"%d",&x[0].tempoTotal);
         x[1].tempoTotal=x[0].tempoTotal;
@@ -43,7 +43,10 @@ void writeFileBegin(int modo){
     if (modo==2)
         acesso = fopen("edf_rass.out","a");
     if(acesso!=NULL){
-        fprintf(acesso,"EXECUTION BY RATE\n\n");
+        if (modo==1)
+            fprintf(acesso,"EXECUTION BY RATE\n\n");
+        if (modo==2)
+            fprintf(acesso,"EXECUTION BY EDF\n\n");
     }
     fclose(acesso);
 }
@@ -102,11 +105,11 @@ if(argc==3){
     int contKilled2=0;
     int escolhida=-1;
     int modo=0;
-    
-     
-    
-
-
+    if(strcmp(argv[1],"rate")==0)
+        modo=1;
+    if(strcmp(argv[1],"edf")==0)
+        modo=2;
+          
     readFile(argv, tarefas);
     for(int i3=0;i3<2;i3++){
             tarefas[i3].aux=tarefas[i3].periodo;
@@ -229,9 +232,7 @@ if(argc==3){
 
     for(int i=0;i<tempoTotal;i++){
         escolhida=-1;
-        int d1 = tarefas[0].periodo;
-        int d2 = tarefas[1].periodo;  
-
+        
         for(int i3=0;i3<2;i3++){
             
             if ((i%(tarefas[i3].periodo))==0 && i!=tempoTotal ){
@@ -260,6 +261,8 @@ if(argc==3){
            
         } 
 
+            int d1 = tarefas[0].aux;
+            int d2 = tarefas[1].aux;  
 
             if(tarefas[0].isReady==0 && tarefas[1].isReady==0){
                 maiPriorid=-1;
@@ -269,7 +272,7 @@ if(argc==3){
             }
             if(tarefas[1].isReady==1 && tarefas[1].burst>0){
                 if (tarefas[0].isReady==1 && tarefas[0].burst>0){
-                    if (tarefas[0].aux<=tarefas[1].aux)
+                    if (d1 <=d2)
                         maiPriorid=0;
                     else{
                         maiPriorid=1;
