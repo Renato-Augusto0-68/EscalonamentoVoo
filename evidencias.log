@@ -2648,4 +2648,103 @@ Mortas(Killed):0
 perdidas: 0
 [?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
 [?2004lrm -f *.o a.out *.pgm scheduler
-[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ 
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ Script started on 2026-09-07 09:09:35-03:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="201" LINES="15"]
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler voo.txt
+[?2004lmake: 'scheduler' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler voo.txtclean[K&& ./scheduler voo.txtclean[K&& ./scheduler voo.txt[C voo.txtr voo.txta voo.txtt voo.txte voo.txt[C
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ amke[K[K[K[Kmake clen[Kn[Kan
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ mak e[K[Ke clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt[C[C[C[C[C[C[1P voo.txt[1P voo.txt[1P voo.txt[1P voo.txte voo.txtd voo.txtf voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txtclean[K&& ./scheduler rate voo.txtclean[K&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc main.c -o scheduler
+./scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean&& ./scheduler rate voo.txt
+[?2004lmake: 'scheduler' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make run
+[?2004lgcc main.c -o scheduler
+./scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclean&& ./scheduler rate voo.txt
+[?2004lmake: 'scheduler' is up to date.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make le[K[Kclear
+[?2004lmake: *** No rule to make target 'clear'.  Stop.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clear&& ./scheduler rate voo.txtrun[K
+[?2004l./scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Esca
