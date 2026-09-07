@@ -109,7 +109,7 @@ if(argc==3){
         modo=1;
     if(strcmp(argv[1],"edf")==0)
         modo=2;
-          
+
     readFile(argv, tarefas);
     for(int i3=0;i3<2;i3++){
             tarefas[i3].aux=tarefas[i3].periodo;
@@ -136,7 +136,7 @@ if(argc==3){
     */
    int prioridade= 0;
     int menPriorid=0;
-    int maiPriorid=0;
+    int maiPriorid=-1;
     int  tempoTotal = tarefas[0].tempoTotal; 
    int i2=0;
 
@@ -240,6 +240,7 @@ if(argc==3){
             tarefas[i3].burst = tarefas[i3].tempoExec;
              tarefas[i3].aux = i+ (tarefas[i3].deadline);
              tarefas[i3].isReady=1;
+              
              tarefas[i3].isDead=0;
              tarefas[i3].isDone=0;           
              
@@ -253,7 +254,8 @@ if(argc==3){
                     tarefas[i3].cont--;
                     tarefas[i3].isDone=0;
                     tarefas[i3].isDead=0;
-                    
+                    writeFileMiddle(modo,tarefas,i-ant,2,i3);
+                     ant=i;
                     tarefas[i3].isReady=0;
                     
                 
@@ -282,9 +284,22 @@ if(argc==3){
             }
             escolhida=maiPriorid;
             
+            if (escolhida!=escolha_ant){
+                if (i - ant >0) {
+                    if (escolha_ant == -1) {
+                        writeFileMiddle(modo, tarefas, i - ant, -1, escolha_ant);
+                    } else if (tarefas[escolha_ant].burst == 0) {
+                        writeFileMiddle(modo, tarefas, i - ant, 1, escolha_ant);
+                    } else {
+                        writeFileMiddle(modo, tarefas, i - ant, 3, escolha_ant);
+                    }
+                }
+                ant = i;
+            }
+
+
+
              if(escolhida!=-1){
-                
-                if (tarefas[escolhida].cont>0 && tarefas[escolhida].isReady==1){
                     tarefas[escolhida].burst--;
                     if(tarefas[escolhida].burst==0){
                         if(escolhida==0){contCompletas++;}
@@ -295,13 +310,15 @@ if(argc==3){
                          tarefas[escolhida].isDone=1;
                     }
                 }
-                
+                escolha_ant=escolhida;
             }
-            
-              
-
-
-        }
+        
+        int tempoFim = tempoTotal -ant;
+            if (tempoFim>0){
+                if (escolha_ant == -1){writeFileMiddle(modo, tarefas, tempoFim, -1, escolha_ant);}
+                else if (tarefas[escolha_ant].burst == 0){writeFileMiddle(modo, tarefas, tempoFim,  1, escolha_ant); }
+                else{writeFileMiddle(modo, tarefas, tempoFim, 3, escolha_ant);}
+            }
     }
      for(int i2=0;i2<2;i2++){
     
