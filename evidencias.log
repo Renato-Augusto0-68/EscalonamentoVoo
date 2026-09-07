@@ -2747,4 +2747,80 @@ perdidas: 0
 [?2004lmake: *** No rule to make target 'clear'.  Stop.
 [?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clear&& ./scheduler rate voo.txtrun[K
 [?2004l./scheduler
-[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Esca
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make runclear&& ./scheduler rate voo.txtrun[Kclean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean[2Prunclear&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler rate voo.txt[C[C[1P voo.txt[1P voo.txt[1P voo.txt[1P voo.txte voo.txtd voo.txtf voo.txt
+[?2004lgcc main.c -o scheduler
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:339:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  339 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make: *** [makefile:2: scheduler] Error 1
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler edf voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler edf voo.txt
+[?2004lgcc main.c -o scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler edf voo.txt someshit
+[?2004lgcc main.c -o scheduler
+Erro: Quantidade de argumentos menor ou maior que 3.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txt someshitclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler edf voo.txt someshit[K[K[K[K[K[K[K[K[K
+[?2004lgcc main.c -o scheduler
+Erro: Nome inválido
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txtclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler edf voo.txt
+[?2004lgcc main.c -o scheduler
+Erro: Periodo de execução inválido
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txt
+[?2004lmake: 'scheduler' is up to date.
+Erro: Deadline/Período de execução/ Tempo de Execução inválidos
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txt
+[?2004lmake: 'scheduler' is up to date.
+Erro: Deadline/Período de execução/ Tempo de Execução inválidos
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler edf voo.txt[C[1P voo.txt[1P voo.txt[1P voo.txtA voo.txtA voo.txtA voo.txtA voo.txt
+[?2004lmake: 'scheduler' is up to date.
+free(): double free detected in tcache 2
+Aborted (core dumped)
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler AAAA voo.txt[1P voo.txt[1P voo.txt[1P voo.txt[1P voo.txte voo.txtd voo.txtf voo.txt[1P voo.txt[1P voo.txt[1P voo.txtr voo.txta voo.txtt voo.txte voo.txt
+[?2004lmake: 'scheduler' is up to date.
+Erro: Deadline/Período de execução/ Tempo de Execução inválidos
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler rate voo.txt[1P voo.txt[1P voo.txt[1P voo.txt[1P voo.txta voo.txta voo.txta voo.txt
+[?2004lgcc main.c -o scheduler
+Erro: Modo inválido
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler aaa voo.txt[1@rate[C[C[C[C[C[C[C[CAAAA[C[C[C[C[C[C[C[C[1Pedf[C[C[C[C[C[C[C[Cclean[K
+[?2004lrm -f *.o *.out *.pgm scheduler
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make clean&& ./scheduler aaa voo.txt
+[?2004lgcc main.c -o scheduler
+Erro: Modo inválido
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler aaa voo.txtclean[K&& ./scheduler aaa voo.txt
+[?2004lgcc main.c -o scheduler
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:127:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreturn[m[K’ with no value, in function returning non-void
+  127 |     [01;35m[Kreturn[m[K;
+      |     [01;35m[K^~~~~~[m[K
+[01m[Kmain.c:122:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  122 | int [01;36m[Kmain[m[K(int argc, char *argv[]){
+      |     [01;36m[K^~~~[m[K
+Erro: Modo inválido
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/EscalonamentoVoo[00m$ make && ./scheduler aaa voo.txtclean[K&& ./scheduler aaa voo.txt[C   pppp[1P[1P[1P[1@e[1@d[1@f
+[?2004lmake: 'scheduler' is up to date.
+Erro: Quantidade de argumentos menor ou maior que 3.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/EscalonamentoVoo[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/ra

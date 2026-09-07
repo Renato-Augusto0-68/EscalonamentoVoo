@@ -25,14 +25,41 @@ typedef struct tarefa{
 
 void readFile(char *argv[], tarefa *x){
     FILE *acesso;
-
     acesso = fopen(argv[2],"r");
     if (acesso!=NULL){
         fscanf(acesso,"%d",&x[0].tempoTotal);
+        if(x[0].tempoTotal<=0){
+                fprintf(stderr, "Erro: Periodo de execução inválido\n");
+                fclose(acesso);
+                exit(EXIT_FAILURE);
+        }
         x[1].tempoTotal=x[0].tempoTotal;
         fscanf(acesso,"%s %d %d %d",x[0].nome,&x[0].periodo,&x[0].deadline,&x[0].tempoExec);
+        if(x[0].deadline<=0||x[0].periodo<=0||x[0].tempoExec<=0){
+            fprintf(stderr, "Erro: Deadline/Período de execução/ Tempo de Execução inválidos\n");
+            fclose(acesso);
+            exit(EXIT_FAILURE);
+        }
+        if(strcmp(x[0].nome,"ATT")!=0){
+                fprintf(stderr, "Erro: Nome inválido\n");
+                fclose(acesso);
+                exit(EXIT_FAILURE);
+        }
+
+
         fscanf(acesso,"%s %d %d %d",x[1].nome,&x[1].periodo,&x[1].deadline,&x[1].tempoExec);
+        if(x[1].deadline<=0||x[1].periodo<=0||x[1].tempoExec<=0){
+            fprintf(stderr, "Erro: Deadline/Período de execução/ Tempo de Execução inválidos\n");
+            fclose(acesso);
+            exit(EXIT_FAILURE);
+        }
+        if(strcmp(x[1].nome,"NAV")!=0){
+                fprintf(stderr, "Erro: Nome inválido\n");
+                fclose(acesso);
+                exit(EXIT_FAILURE);
+        }
     }
+    
     fclose(acesso);
 }
 
@@ -93,7 +120,13 @@ void writeFileEnd(int modo, tarefa *x, int contCompletas, int contCompletas2, in
 // e, dentro dela colocar os dados conforme cada um precisa
 
 int main(int argc, char *argv[]){
-if(argc==3){
+
+if (argc!=3){
+    fprintf(stderr, "Erro: Quantidade de argumentos menor ou maior que 3.\n");
+    exit(EXIT_FAILURE);
+    return;
+}
+    if(argc==3){
     tarefa tarefas[2];
     int contLost=0;
     int ant=0;
@@ -109,7 +142,10 @@ if(argc==3){
         modo=1;
     if(strcmp(argv[1],"edf")==0)
         modo=2;
-
+    if (modo==0){
+        fprintf(stderr, "Erro: Modo inválido\n");
+        exit(EXIT_FAILURE);
+    }
     readFile(argv, tarefas);
     for(int i3=0;i3<2;i3++){
             tarefas[i3].aux=tarefas[i3].periodo;
@@ -119,7 +155,7 @@ if(argc==3){
             tarefas[i3].cont=0;
             tarefas[i3].isDone=0;
     }
-    
+     
     
     writeFileBegin(modo);
     
