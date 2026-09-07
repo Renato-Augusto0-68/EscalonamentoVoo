@@ -9,7 +9,7 @@
 // burst  o tempo q precisa. ou seja: if contador ==deadline){break;}
 
 typedef struct tarefa{
-    char nome[3];
+    char nome[5];
     int periodo;
     int tempoTotal;
     int tempoExec;
@@ -61,7 +61,6 @@ void readFile(char *argv[], tarefa *x){
     }
     if (acesso==NULL){
         fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
-        fclose(acesso);
         exit(EXIT_FAILURE);
     }  
 }
@@ -81,7 +80,6 @@ void writeFileBegin(int modo){
     }
     if (acesso==NULL){
         fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
-        fclose(acesso);
         exit(EXIT_FAILURE);
     }
     
@@ -110,7 +108,6 @@ void writeFileMiddle(int modo,tarefa *x, int tempo, int acao, int qual){
     }
     if (acesso==NULL){
         fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
-        fclose(acesso);
         exit(EXIT_FAILURE);
     }
     
@@ -131,7 +128,6 @@ void writeFileEnd(int modo, tarefa *x, int contCompletas, int contCompletas2, in
     }
     if (acesso==NULL){
         fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
-        fclose(acesso);
         exit(EXIT_FAILURE);
     }
     
@@ -145,7 +141,6 @@ int main(int argc, char *argv[]){
 if (argc!=3){
     fprintf(stderr, "Erro: Quantidade de argumentos menor ou maior que 3.\n");
     exit(EXIT_FAILURE);
-    return;
 }
     if(argc==3){
     tarefa tarefas[2];
