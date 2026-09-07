@@ -57,10 +57,13 @@ void readFile(char *argv[], tarefa *x){
                 fprintf(stderr, "Erro: Nome inválido\n");
                 fclose(acesso);
                 exit(EXIT_FAILURE);
-        }
+        }fclose(acesso);
     }
-    
-    fclose(acesso);
+    if (acesso==NULL){
+        fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
+        fclose(acesso);
+        exit(EXIT_FAILURE);
+    }  
 }
 
 void writeFileBegin(int modo){
@@ -74,8 +77,14 @@ void writeFileBegin(int modo){
             fprintf(acesso,"EXECUTION BY RATE\n\n");
         if (modo==2)
             fprintf(acesso,"EXECUTION BY EDF\n\n");
+        fclose(acesso);
     }
-    fclose(acesso);
+    if (acesso==NULL){
+        fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
+        fclose(acesso);
+        exit(EXIT_FAILURE);
+    }
+    
 }
 
 void writeFileMiddle(int modo,tarefa *x, int tempo, int acao, int qual){
@@ -97,8 +106,14 @@ void writeFileMiddle(int modo,tarefa *x, int tempo, int acao, int qual){
         if(acao==3){
             fprintf(acesso,"[%s] for %d units - H\n",x[qual].nome,tempo);
         }
+        fclose(acesso);
     }
-    fclose(acesso);
+    if (acesso==NULL){
+        fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
+        fclose(acesso);
+        exit(EXIT_FAILURE);
+    }
+    
 
 }
 
@@ -112,8 +127,14 @@ void writeFileEnd(int modo, tarefa *x, int contCompletas, int contCompletas2, in
         fprintf(acesso,"\nLOST DEADLINES\n[%s] %d\n[%s] %d\n\n", x[0].nome,contLost,x[1].nome,contLost2);
         fprintf(acesso,"COMPLETE EXECUTION\n[%s] %d\n[%s] %d\n\n",x[0].nome,contCompletas,x[1].nome,contCompletas2);
         fprintf(acesso,"KILLED\n[%s] %d\n[%s] %d\n",x[0].nome,contKilled,x[1].nome,contKilled2);
+        fclose(acesso);
     }
-    fclose(acesso);
+    if (acesso==NULL){
+        fprintf(stderr,"Erro: não foi possível abrir o/s arquivo/s");
+        fclose(acesso);
+        exit(EXIT_FAILURE);
+    }
+    
 }
 
 // uma struct com 2 valores sempre
@@ -149,14 +170,17 @@ if (argc!=3){
     readFile(argv, tarefas);
     for(int i3=0;i3<2;i3++){
             tarefas[i3].aux=tarefas[i3].periodo;
+            if(tarefas[i3].deadline>tarefas[i3].periodo || tarefas[i3].tempoExec>tarefas[i3].deadline){
+                fprintf(stderr,"Erro: Deadline > período/Tempo de execução > deadline, inválido por ser impossível de executar!");
+                exit(EXIT_FAILURE);
+            }
             tarefas[i3].isDead=0;
             tarefas[i3].burst=tarefas[i3].tempoExec;
             tarefas[i3].isReady=0;
             tarefas[i3].cont=0;
             tarefas[i3].isDone=0;
     }
-     
-    
+       
     writeFileBegin(modo);
     
     /*
