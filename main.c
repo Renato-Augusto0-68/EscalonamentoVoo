@@ -227,22 +227,15 @@ if (argc!=3){
         int d1 = tarefas[0].periodo;
         int d2 = tarefas[1].periodo;  
 
-        if(tarefas[0].isReady==0 && tarefas[1].isReady==0){
-                maiPriorid=-1;
-            }
-            if(tarefas[0].isReady==1 && tarefas[1].isReady==0 && tarefas[0].burst>=0 ){
-                maiPriorid=0;
-            }
-            if(tarefas[1].isReady==1 && tarefas[1].burst>0){
-                if (tarefas[0].isReady==1 && tarefas[0].burst>0){
-                    if (d1<=d2)
+            if(tarefas[0].isReady==1 && tarefas[0].burst>0 && tarefas[1].isReady==1 && tarefas[1].burst>0){
+                    if (d1 <=d2)
                         maiPriorid=0;
-                    else{
+                    else
                         maiPriorid=1;
-                    }
-                }
-                else if (tarefas[0].isReady==0){maiPriorid=1;}
             }
+            else if (tarefas[0].isReady==1 && tarefas[0].burst>0){maiPriorid=0;}
+            else if (tarefas[1].isReady==1 && tarefas[1].burst>0){maiPriorid=1;}
+            else{maiPriorid=-1;}
 
             escolhida=maiPriorid;
             
@@ -321,22 +314,16 @@ if (argc!=3){
             int d1 = tarefas[0].aux;
             int d2 = tarefas[1].aux;  
 
-            if(tarefas[0].isReady==0 && tarefas[1].isReady==0){
-                maiPriorid=-1;
-            } 
-            if(tarefas[0].isReady==1 && tarefas[1].isReady==0 && tarefas[0].burst>0 ){
-                maiPriorid=0;
-            }
-            if(tarefas[1].isReady==1 && tarefas[1].burst>0){
-                if (tarefas[0].isReady==1 && tarefas[0].burst>0){
+            if(tarefas[0].isReady==1 && tarefas[0].burst>0 && tarefas[1].isReady==1 && tarefas[1].burst>0){
                     if (d1 <=d2)
                         maiPriorid=0;
-                    else{
+                    else
                         maiPriorid=1;
-                    }
-                }
-                else if (tarefas[0].isReady==0){maiPriorid=1;}
             }
+            else if (tarefas[0].isReady==1 && tarefas[0].burst>0){maiPriorid=0;}
+            else if (tarefas[1].isReady==1 && tarefas[1].burst>0){maiPriorid=1;}
+            else{maiPriorid=-1;}
+
             escolhida=maiPriorid;
             
             if (escolhida!=escolha_ant){
